@@ -339,3 +339,9 @@
         }
     }
 }
+
+.content-wrapper.pl-5 {
+    @include media-breakpoint-down(sm) {
+        padding-left: 0px !important;
+    }
+}
